@@ -11,6 +11,7 @@ def main():
 
     if player_choice == computer_choice:
         print("It's a tie!")
+        print("You both chose the same thing, no one wins! Rematch!")
         main()
     elif player_choice == "rock":
         if computer_choice == "scissors":
